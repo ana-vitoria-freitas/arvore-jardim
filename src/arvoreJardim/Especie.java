@@ -19,9 +19,16 @@ public class Especie {
 		return idEspecieAltura;
 	}
 
-
 	public String getNomeEspecie() {
 		return nomeEspecie;
+	}
+
+	public void setIdEspecieLargura(int idEspecieLargura) {
+		this.idEspecieLargura = idEspecieLargura;
+	}
+
+	public void setIdEspecieAltura(int idEspecieAltura) {
+		this.idEspecieAltura = idEspecieAltura;
 	}
 
 	

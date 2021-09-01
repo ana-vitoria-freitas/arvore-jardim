@@ -6,16 +6,13 @@ public class Area {
 	private int quantidadeSubdivisoes;
 	
 	
-	public Area(double largura, double altura) {
+	public Area(double largura, double altura, int quantidadeSubdivisoes) {
 		this.larguraEmMetros = largura;
 		this.alturaEmMetros = altura;
-		this.quantidadeSubdivisoes = 0;
+		this.quantidadeSubdivisoes = quantidadeSubdivisoes;
 	}
 	
 	
-	public int getQuantidadeSubdivisoes() {
-		return this.quantidadeSubdivisoes;
-	}
 	
 	public double calculaAreaTotal() {
 		return larguraEmMetros * alturaEmMetros;
@@ -33,8 +30,11 @@ public class Area {
 	public double getLarguraEmMetros() {
 		return larguraEmMetros;
 	}
+	
 
-
+	public int getQuantidadeSubdivisoes() {
+		return this.quantidadeSubdivisoes;
+	}
 
 	public double getAlturaEmMetros() {
 		return alturaEmMetros;
