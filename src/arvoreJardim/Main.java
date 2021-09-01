@@ -23,5 +23,7 @@ public class Main {
 		plantacao.plantarEspecie(areaJardim, new Especie("Ipê Amarelo", 0, 20), 0);
 		
 		plantacao.imprimePlantacoes();
+		
+		System.out.println("Total de espécies plantadas: " + plantacao.getQuantidadeEspeciesPlantadas());
 	}
 }
